@@ -78,11 +78,8 @@ Error = Target Angle - Current Angle
 ```
 
 The calculated PID output is converted into motor speed.
-
 Positive output moves the robot in one direction.
-
 Negative output moves it in the opposite direction.
-
 When the robot reaches the target angle, the motors slow down automatically.
 
 ---
@@ -156,7 +153,6 @@ motor.cpp / .h
 ```
 
 Contains a reusable TB6612FNG motor driver implementation for ESP32.
-
 Although this project uses the Arduino Motor Driver Shield, the TB6612FNG driver has been included for anyone using ESP32.
 
 ---
@@ -169,7 +165,6 @@ If the robot tilts more than **65°**, the motors are immediately stopped to pre
 
 # 🚀 Future Improvements
 
-* Wheel Encoders
 * Position PID
 * Bluetooth Control
 * Remote Tuning
@@ -177,7 +172,6 @@ If the robot tilts more than **65°**, the motors are immediately stopped to pre
 * Kalman Filter
 * STM32 Version
 * ESP32 Version
-* Autonomous Balancing
 
 ---
 
